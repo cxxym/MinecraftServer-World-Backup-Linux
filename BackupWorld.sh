@@ -1,7 +1,6 @@
 #!/bin/bash
 #
 # Minecraft Fabric 自动备份脚本（可本地+远程备份）
-# GitHub 安全公开版本（无敏感信息）
 #
 
 ###========================================
@@ -19,6 +18,9 @@ BACKUP_DIR="/path/to/backups"
 
 # 本地保留多少个 ZIP 备份
 LOCAL_KEEP=5
+
+# 远程保留多少个 ZIP 备份
+REMOTE_KEEP=2
 
 # 远程服务器信息（请自行填写）
 REMOTE_USER="your_user"
